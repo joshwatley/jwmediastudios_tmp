@@ -24,62 +24,87 @@
     <body>
       <div class="content w-100">
         <div class="container">
+          <!-- <div class="row">
+            <div class="col-12">
+                <img class="logo small" src="/img/smalllogo.png" alt="" />
+            </div>
+          </div> -->
           <div class="row">
             <div class="col-12 col-md-6 my-auto">
               <div class="contact-text">
-                <h2>Contact The HappyPixel Team</h2>
+                <a class="back" onclick="history.back()"> < Back</a>
+
+                <h2>Contact The <span>JWM</span>S Team</h2>
                 <p>
                   Our team of creatives are available to take your calls and
                   respond to your emails all the time. So, if you have a query
-                  about our services or just want to say hello please feel free to
-                  do so.
+                  about our services or just want to say hello please feel free
+                  to do so.
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 inputs">
+              <form accept-charset="UTF-8" class="needs-validation" action="https://formspree.io/f/xrgjpnkz" method="POST" novalidate>
+                <div class="mb-3 position-relative">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Your name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                  <div class="invalid-tooltip">
+                    Please provide your name.
+                  </div>
+                </div>
+                <div class="mb-3 position-relative">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Your email</label>
+        
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                  <div class="invalid-tooltip">
+                    Please provide a valid email.
+                  </div>
+                </div>
+                <div class="mb-3 position-relative">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Subject</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="subject"
+                    required
+                  />
+                  <div class="invalid-tooltip">
+                    Please provide a subject.
+                  </div>
+                </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                      >Your name</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                      >Your email</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Subject</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Your message (optional)</label
-                >
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
-              </div>
-              <button type="button" class="btn submit btn-outline-primary">
-                SUBMIT
-              </button>
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Your message (optional)</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn submit btn-outline-primary">
+                  SUBMIT
+                </button>
+              </form>
             </div>
           </div>
         </div>
