@@ -1,2 +1,2 @@
 # jwmediastudios_tmp
-Temporary landing page for jwmediastudios
+Temporary landing page for jwmediastudios.com
