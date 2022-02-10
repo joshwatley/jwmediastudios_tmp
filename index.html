@@ -20,11 +20,49 @@
         crossorigin="anonymous"
       />
       <link rel="stylesheet" href="style.css" />
+      <!-- Meta Pixel Code -->
+      <script>
+        !(function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "961286657835894");
+        fbq("track", "PageView");
+      </script>
+      <noscript
+        ><img
+          height="1"
+          width="1"
+          style="display: none"
+          src="https://www.facebook.com/tr?id=961286657835894&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Meta Pixel Code -->
     </head>
     <body>
       <div class="announcement">
         <!-- <p>Announcement Here!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Full Story ></a></p> -->
-         <p class='blink_me'><a href="">For a limited time only taking on FREE client work!</a></p>
+        <p class="blink_me">
+          <a href="">For a limited time only taking on FREE client work!</a>
+        </p>
       </div>
       <div class="content">
         <div class="container">
@@ -36,21 +74,31 @@
           <div class="row">
             <div class="col">
               <div class="text-content">
-                <h1>Welcome to <strong><span>JW Media</span> Studios</strong></h1>
+                <h1>
+                  Welcome to <strong><span>JW Media</span> Studios</strong>
+                </h1>
                 <p>
-                  We are a London based Media house specialising in Web Development, Media and Graphic Design. 
-                  We work with individuals and businesses of all sizes, helping you to grow your brand and develop your online presense, all while you focus on running your business!
+                  We are a London based Media house specialising in Web
+                  Development, Media and Graphic Design. We work with
+                  individuals and businesses of all sizes, helping you to grow
+                  your brand and develop your online presense, all while you
+                  focus on running your business!
                 </p>
                 <p>
                   <span><a href="/contact.html">Contact us</a></span> to see how
                   we can help you and check us out on social media via
                   <span
-                    ><a href="https://www.instagram.com/jwmediastudios" target="_blank"
+                    ><a
+                      href="https://www.instagram.com/jwmediastudios"
+                      target="_blank"
                       >Instagram</a
                     ></span
-                  > or
+                  >
+                  or
                   <span
-                    ><a href="https://www.facebook.com/jwmediastudios/" target="_blank"
+                    ><a
+                      href="https://www.facebook.com/jwmediastudios/"
+                      target="_blank"
                       >Facebook</a
                     ></span
                   >.
@@ -62,7 +110,8 @@
                   >. -->
                 </p>
                 <p>
-                  Alternatively, book a free consultation session with us by clicking below.
+                  Alternatively, book a free consultation session with us by
+                  clicking below.
                 </p>
               </div>
             </div>
